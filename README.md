@@ -7,7 +7,18 @@ This Repository Contains:
 
 
 
-# To Run:
+# For First Time Setup:
 
 pip install --upgrade "watson-developer-cloud>=1.1.1" ( may need sudo at front)
 python watson.py
+
+# To Run Shell Scripts:
+
+classifier_script.sh
+./classifier_script.sh A.zip B.zip
+
+get_classifier.sh : returns 
+./get_classifier.sh
+
+delete_classifier.sh
+./delete_classifier.sh
